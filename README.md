@@ -2,7 +2,7 @@
 
 Jeu de course de voiliers
 
-Contenu :
+_Contenu :_
 - Platine électronique pour Arduino Mega 2560 R3 (document Fritzing).
 - Programme pour Arduino.
 - Liste du matériel.
