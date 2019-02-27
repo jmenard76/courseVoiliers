@@ -8,7 +8,7 @@ Contenu :
 - Liste du matériel.
 - Plans mécaniques du jeu.
 `code`
-```php
+```c
 echo 'Bonjour';
 ```
 Essai
