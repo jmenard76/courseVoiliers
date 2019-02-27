@@ -7,8 +7,3 @@ Contenu :
 - Programme pour Arduino.
 - Liste du matériel.
 - Plans mécaniques du jeu.
-`code`
-```c
-echo 'Bonjour';
-```
-Essai
