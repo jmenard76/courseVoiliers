@@ -1,13 +1,14 @@
 /*   Course de Voiliers
      Jérôme Menard
-     Version 1.0 - Mai 2018
+     Version 1.1 - Mai 2018 : version finale.
+     Version 1.2 - Mai 2019 : modification des adresses de sortie pour les LED suite à remplacement du cablage interne. Rempacement des FdC par des barrières lumineuses.
 */
 
 #include <RedMP3.h>
 #include <AFMotor.h>
 
 // Tests
-const bool DEBUG = true;
+const bool DEBUG = false;
 
 /*
    Gestion du son
@@ -260,13 +261,13 @@ class Voilier
    Variables générales
 */
 const byte pinBoutonInit = 46;
-Voilier voilier1(1, 22, 24, 26, 28);
-Voilier voilier2(2, 30, 32, 34, 36);
-Voilier voilier3(3, 38, 40, 42, 44);
-Flasher ledActivite(47, 800, 400);
+Voilier voilier1(1, 26, 28, 22, 24);
+Voilier voilier2(2, 34, 36, 30, 32);
+Voilier voilier3(3, 42, 44, 38, 40);
+Flasher ledActivite(29, 800, 400);
 Flasher ledArrivee_V1(23, 0, 0);
-Flasher ledArrivee_V2(31, 0, 0);
-Flasher ledArrivee_V3(39, 0, 0);
+Flasher ledArrivee_V2(25, 0, 0);
+Flasher ledArrivee_V3(27, 0, 0);
 int indexVictoire = 0;
 
 
